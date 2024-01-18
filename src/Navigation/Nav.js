@@ -11,10 +11,13 @@ function Nav({handleInputChange, query}) {
   return (
     <nav>
       <div className="nav-container">
+      
+
         <input type="text" className="search-input"
         onChange={handleInputChange}
         value={query}
-        placeholder="Enter your search shoes."/>
+        placeholder="Enter your search shoes."/> 
+        
       </div>
 
       <div className='profile-container'>
@@ -28,7 +31,8 @@ function Nav({handleInputChange, query}) {
         </a>
 
         <a href='#'>
-          <FaRegUser className="nav-icons" />  ADHITHYA K
+          <FaRegUser className="nav-icons" />
+         
         </a>
 
       </div>

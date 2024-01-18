@@ -12,7 +12,9 @@ function Sidebar({handleChange}) {
     <>
     <section className="sidebar">
         <div className="logo-container">
+          
             <h1><HiShoppingCart/></h1>
+            
         </div>
 
         <Category handleChange={handleChange}/>
